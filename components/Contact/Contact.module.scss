@@ -1,0 +1,28 @@
+.contact {
+  // margin: 10px 0;
+  padding: 10px 0 60px;
+  a {
+    line-height: 2.4;
+    display: flex;
+    align-items: center;
+  }
+}
+.header {
+  border-bottom: 2px solid #d6d7db;
+  margin-bottom: 20px;
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -20px;
+  }
+}
+.iconTitle {
+  margin-right: 10px;
+}
+.contactIcon {
+  margin-right: 5px;
+}
+.email {
+  font-size: 18px;
+}

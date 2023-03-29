@@ -1,0 +1,102 @@
+// //EM
+// $fontsize: 20;
+// @function em($px, $fontsize) {
+//   // $result: math.div($px, $current) + em;
+//   $result: ($px / $font-size) + em;
+//   @return $result;
+// }
+.container {
+  background: rgb(237, 233, 234);
+  min-height: 100vh;
+  min-width: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.paper {
+  margin: 50px 90px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  max-width: 1300px;
+  box-shadow: 60px 40px 50px #68666695;
+  // @media(max-width: 991.98px) {
+
+  // }
+  
+}
+
+.paper_left {
+  background-color: #1f2024;
+  color: #d6d7db;
+}
+.paper_left_сonteiner {
+  max-width: 75%;
+  margin: 3em auto;
+  h1 {
+    text-align: center;
+    // font-size: 25px;
+    font-size: 1.25em;
+    font-weight: 500;
+    margin: 10px 0 60px;
+  }
+  h2 {
+    // font-size: 30px;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+  }
+  .myName {
+    font-family: 'Oswald';
+    // font-size: 50px;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0.4em 0 0.3em;
+  }
+}
+.paper_right {
+  background-color: #e6e4e7;
+  color: #2c5378;
+}
+.paper_right_сonteiner {
+  // padding-top: 2em;
+  max-width: 80%;
+  margin: 3em auto;
+  h2 {
+    // font-size: 35px;
+    font-size: 1.75em;
+    font-weight: 700;
+  }
+}
+
+// 991.98 // Планшеты, некоторые телефоны в горизонтальном положении
+// 767.98 // Телефоны L
+@media (max-width: 767.98px) {
+  .paper{
+    display: block;
+    margin: 0;
+  }
+  .paper_left_сonteiner{
+    margin: 0 auto;
+    padding-top: 3em;
+  }
+  .title{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3em;
+  }
+  .titleConteiner{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+  }
+}

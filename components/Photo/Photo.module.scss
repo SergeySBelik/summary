@@ -1,0 +1,23 @@
+.photo {
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  @media (max-width: 767.98px) {
+    margin-top: 0;
+    
+  }
+
+  .circle {
+    width: 230px;
+    height: 230px;
+    border: 8px solid #cb4e4e;
+    border-radius: 50%;
+    background-color: #e6e4e7;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+    }
+  }
+}
+
