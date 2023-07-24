@@ -10,12 +10,10 @@ const About = () => {
         </h2>
       </div>
       <p>
-        Люблю жизнь, людей и узнавать что-то новое. Никогда не сижу без дела.
-        Люблю активную жизнь, занимаюсь спортом, хожу в горы.
+        I love life, people and learning new things. I never sit idle. I love an active life, go in for sports, go to the mountains.
       </p>
       <p>
-        Я трудолюбивый, целеустремленный человек, нацеленный на результат. С
-        удовольствием работаю в команде, легко нахожу со всеми общий язык.
+      I am a hardworking, goal-oriented person, focused on results. I enjoy working in a team, I easily find a common language with everyone.
       </p>
     </div>
   )

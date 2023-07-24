@@ -9,7 +9,6 @@ const Photo = () => {
           <Image height={250} width={250} src="/avatar.jpg" alt="avatar" />
         </div>
       </div>
-      
     </>
   )
 }
